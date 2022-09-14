@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Card from '../components/Card';
+import Footer from '../components/Footer';
 const data = [
   {
     text: 'Architectural Engineering Wonders of the modern era for your Inspiration',
@@ -73,6 +74,7 @@ const Index = () => {
     <div>
       <Navbar />
       <Card data={data} />
+      <Footer />
     </div>
   );
 };
