@@ -33,7 +33,7 @@ const data = [
     link: '/',
     button: 'DESIGN',
     dp_name: 'Mario Sanchez',
-    date: 'May 20, 2022',
+    date: 'August 20, 2022',
   },
   {
     text: 'How Technology Evolved Under the Bright Sun of Universe',
@@ -41,7 +41,7 @@ const data = [
     link: '/',
     button: 'TECHNOLOGY',
     dp_name: 'Mario Sanchez',
-    date: 'May 20, 2022',
+    date: 'september 20, 2022',
   },
   {
     text: 'Lessons Of Happiness I learned from a Mountain Village',
