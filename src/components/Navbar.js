@@ -25,36 +25,31 @@ const Navbar = () => {
     <div>
       <header className="p-4 dark:bg-gray-800 dark:text-gray-100">
         <div className="container flex justify-between h-16 mx-auto md:justify-center md:space-x-8">
-          <ul className="items-stretch hidden space-x-3 md:flex">
+          <div className="items-stretch hidden space-x-3 md:flex">
             {leftside.map((item) => (
-              // eslint-disable-next-line react/jsx-key
-              <Link href="/">
+              <Link href="/" key={item.label}>
                 <a className="px-5 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-blue-500">
                   {item.label}
                 </a>
               </Link>
             ))}
-          </ul>
-          <a
-            rel="noopener noreferrer"
-            href="#"
-            aria-label="Back to homepage"
-            className="flex items-center p-2"
-          >
-            <div>
-              <img src="https://cdn.sanity.io/images/cijrdavx/production/e8fa4f57a95067e838d7aa5a4f80042137d9f5b6-132x52.svg?w=640&q=75&fit=clip&auto=format"></img>
-            </div>
+          </div>
+          <Link href="/">
+            <a className="flex items-center">
+              <div>
+                <img src="https://cdn.sanity.io/images/cijrdavx/production/e8fa4f57a95067e838d7aa5a4f80042137d9f5b6-132x52.svg?w=640&q=75&fit=clip&auto=format"></img>
+              </div>
 
-            {rightside.map((item) => (
-              // eslint-disable-next-line react/jsx-key
-              <Link href="/">
-                <a className="px-5 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-blue-500">
-                  {item.label}
-                </a>
-              </Link>
-            ))}
-          </a>
-          <ul className="items-stretch hidden space-x-3 md:flex"></ul>
+              {rightside.map((item) => (
+                <Link href="/" key={item.label}>
+                  <a className="px-5 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-blue-500">
+                    {item.label}
+                  </a>
+                </Link>
+              ))}
+            </a>
+          </Link>
+
           <button title="Button" type="button" className="p-4 md:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"

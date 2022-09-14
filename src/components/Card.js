@@ -15,6 +15,8 @@ const Card = ({ data }) => {
           data.slice(2).map((item) => {
             return <CardHero key={item.text} item={item} />;
           })}
+
+        <div></div>
       </div>
     </div>
   );
