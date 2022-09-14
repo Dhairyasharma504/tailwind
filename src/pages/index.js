@@ -62,7 +62,7 @@ const data = [
     text: 'Escape Fantasies of the Tech Billionaires',
     image: '/images/logo.png',
     link: '/',
-    button: 'TECHNOLOGY',
+    button: 'technology',
     dp_name: 'Erika Oliver',
     date: 'May 20, 2022',
   },
