@@ -25,7 +25,7 @@ const data = [
     link: '/',
     button: 'PERSONAL GROWTH',
     dp_name: 'Erika Oliver',
-    date: 'May 20, 2022',
+    date: 'july 20, 2022',
   },
   {
     text: 'Every Artist has to see the Amazing Pictures on the Internet',
