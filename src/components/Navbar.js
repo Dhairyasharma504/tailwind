@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-const leftside = [
+const navItems = [
   {
     label: 'Home',
   },
@@ -10,13 +10,19 @@ const leftside = [
   {
     label: 'Contact',
   },
-];
-const rightside = [
+  {
+    image:
+      'https://cdn.sanity.io/images/cijrdavx/production/e8fa4f57a95067e838d7aa5a4f80042137d9f5b6-132x52.svg?w=640&q=75&fit=clip&auto=format',
+    label: 'logo',
+  },
   {
     label: 'Achive',
   },
   {
     label: 'Github',
+  },
+  {
+    label: 'Pages',
   },
 ];
 
@@ -24,31 +30,24 @@ const Navbar = () => {
   return (
     <div>
       <header className="p-4 dark:bg-gray-800 dark:text-gray-100">
-        <div className="container flex justify-between h-16 mx-auto md:justify-center md:space-x-8">
-          <div className="items-stretch hidden space-x-3 md:flex">
-            {leftside.map((item) => (
-              <Link href="/" key={item.label}>
-                <a className="px-5 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-blue-500">
-                  {item.label}
-                </a>
-              </Link>
-            ))}
-          </div>
-          <Link href="/">
-            <a className="flex items-center">
-              <div>
-                <img src="https://cdn.sanity.io/images/cijrdavx/production/e8fa4f57a95067e838d7aa5a4f80042137d9f5b6-132x52.svg?w=640&q=75&fit=clip&auto=format"></img>
-              </div>
-
-              {rightside.map((item) => (
+        <div className="container flex justify-between h-16 mx-auto md:justify-center items-center md:space-x-8">
+          {navItems.map((item) => {
+            if (item.image) {
+              return (
+                <div key={item.label} className="px-2">
+                  <img src={item.image} alt={item.label}></img>
+                </div>
+              );
+            } else {
+              return (
                 <Link href="/" key={item.label}>
-                  <a className="px-5 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-blue-500">
+                  <a className="px-2 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-blue-500">
                     {item.label}
                   </a>
                 </Link>
-              ))}
-            </a>
-          </Link>
+              );
+            }
+          })}
 
           <button title="Button" type="button" className="p-4 md:hidden">
             <svg

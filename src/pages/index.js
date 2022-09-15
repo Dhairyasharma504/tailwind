@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 const data = [
   {
     text: 'Architectural Engineering Wonders of the modern era for your Inspiration',
-    image: '/images/logo.png',
+    image: '/images/building.webp',
     link: '/',
     button: 'TECHNOLOGY',
     dp_name: 'Mario Sanchez',
@@ -13,7 +13,7 @@ const data = [
   },
   {
     text: '5 Effective Brain Recharging Activities No One is Talking About',
-    image: '/images/logo.png',
+    image: '/images/water.webp',
     link: '/',
     button: 'LIFESTYLE',
     dp_name: 'Joshua Wood',
@@ -21,7 +21,7 @@ const data = [
   },
   {
     text: '10 Simple Practices That Will Help You Get 1% Better Every Day',
-    image: '/images/logo.png',
+    image: '/images/leaf.webp',
     link: '/',
     button: 'PERSONAL GROWTH',
     dp_name: 'Erika Oliver',
@@ -29,7 +29,7 @@ const data = [
   },
   {
     text: 'Every Artist has to see the Amazing Pictures on the Internet',
-    image: '/images/logo.png',
+    image: '/images/design.webp',
     link: '/',
     button: 'DESIGN',
     dp_name: 'Mario Sanchez',
@@ -37,7 +37,7 @@ const data = [
   },
   {
     text: 'How Technology Evolved Under the Bright Sun of Universe',
-    image: '/images/logo.png',
+    image: '/images/technology.webp',
     link: '/',
     button: 'TECHNOLOGY',
     dp_name: 'Mario Sanchez',
@@ -45,7 +45,7 @@ const data = [
   },
   {
     text: 'Lessons Of Happiness I learned from a Mountain Village',
-    image: '/images/logo.png',
+    image: '/images/travel.webp',
     link: '/',
     button: 'TRAVEL',
     dp_name: 'Joshua Wood',
@@ -53,7 +53,7 @@ const data = [
   },
   {
     text: 'There’s Nothing New About Undermining Women’s Autonomy',
-    image: '/images/logo.png',
+    image: '/images/lifestyle.webp',
     link: '/',
     button: 'LIFESTYLE',
     dp_name: 'Erika Oliver',
@@ -61,7 +61,7 @@ const data = [
   },
   {
     text: 'Escape Fantasies of the Tech Billionaires',
-    image: '/images/logo.png',
+    image: '/images/technology1.webp',
     link: '/',
     button: 'technology',
     dp_name: 'Erika Oliver',
