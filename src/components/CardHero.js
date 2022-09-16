@@ -27,6 +27,7 @@ const CardHero = ({ item }) => {
         </div>
 
         <p className=" text-sm font-medium ">{item.dp_name}</p>
+        <span class="text-xs text-gray-300 dark:text-gray-600">•</span>
         <p className="text-sm font-medium ">{item.date}</p>
       </div>
     </div>

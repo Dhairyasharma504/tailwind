@@ -1,7 +1,6 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
 import Card from '../components/Card';
-import Footer from '../components/Footer';
+import Layout from '../components/Layout';
 const data = [
   {
     text: 'Architectural Engineering Wonders of the modern era for your Inspiration',
@@ -71,11 +70,9 @@ const data = [
 
 const Index = () => {
   return (
-    <div>
-      <Navbar />
+    <Layout>
       <Card data={data} />
-      <Footer />
-    </div>
+    </Layout>
   );
 };
 
