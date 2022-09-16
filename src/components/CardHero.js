@@ -3,7 +3,7 @@ import React from 'react';
 const CardHero = ({ item }) => {
   if (!item) return null;
   return (
-    <div className="rounded-md ">
+    <div className="rounded-md bg-indigo-500 h-90 ">
       <img
         src={item.image}
         alt={item.title}

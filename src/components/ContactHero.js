@@ -1,5 +1,6 @@
 import React from 'react';
 import Content from './elements/Content';
+import Input from './elements/Input';
 
 const ContactHero = () => {
   return (
@@ -55,38 +56,24 @@ const ContactHero = () => {
               </p>
             </div>
           </div>
-          <form
-            novalidate=""
-            className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid"
-          >
+          <form className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
+            <Input placeholder="Name" error="Full name is required" />
+            <Input
+              placeholder="Email Address"
+              error="Please enter a valid email"
+            />
             <label className="block">
-              <span className="mb-1">Full name</span>
-              <input
-                type="text"
-                placeholder="Leroy Jenkins"
-                className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800"
-              />
-            </label>
-            <label className="block">
-              <span className="mb-1">Email address</span>
-              <input
-                type="email"
-                placeholder="leroy@jenkins.com"
-                className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800"
-              />
-            </label>
-            <label className="block">
-              <span className="mb-1">Message</span>
               <textarea
-                rows="3"
-                className="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800"
+                rows="5"
+                placeholder="Your Message"
+                className=" border-black hover:border-opacity-50 border-2 pl-4 pt-4 block w-full rounded-md "
               ></textarea>
             </label>
             <button
-              type="button"
-              className="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 dark:bg-violet-400 dark:text-gray-900 focus:ring-violet-400 hover:ring-violet-400"
+              type="submit"
+              class="w-full py-4 font-semibold text-white transition-colors bg-gray-900 rounded-md hover:bg-gray-800 focus:outline-none focus:ring-offset-2 focus:ring focus:ring-gray-200 px-7 dark:bg-white dark:text-black "
             >
-              Submit
+              Send Message
             </button>
           </form>
         </div>
