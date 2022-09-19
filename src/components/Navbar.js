@@ -7,6 +7,7 @@ const navItems = [
   },
   {
     label: 'About',
+    link: '/about',
   },
   {
     label: 'Contact',
