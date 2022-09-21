@@ -3,14 +3,14 @@ import CardHero from './CardHero';
 
 const Card = ({ data }) => {
   return (
-    <div className="container mx-auto px-24">
+    <div className="">
       <div className="flex flex-wrap">
         {data &&
           data.map((item, index) => {
             return (
               <div
                 className={
-                  index > 1 ? 'md:w-4/12 p-3 w-full' : 'md:w-6/12 w-full p-3'
+                  index > 1 ? 'md:w-4/12 p-6 w-full' : 'md:w-6/12 w-full p-6'
                 }
                 key={item.text}
               >
