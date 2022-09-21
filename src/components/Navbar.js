@@ -20,12 +20,13 @@ const navItems = [
   },
   {
     label: 'Achive',
+    link: '/achive',
   },
   {
     label: 'Github',
   },
   {
-    label: 'Pages',
+    label: 'download',
   },
 ];
 
