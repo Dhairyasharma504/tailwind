@@ -5,7 +5,7 @@ import Input from './elements/Input';
 const ContactHero = () => {
   return (
     <div>
-      <section className="py-6 dark:bg-gray-800 dark:text-gray-50">
+      <section className="py-7 dark:bg-gray-800 dark:text-gray-50">
         <div>
           <Content title="Contact" subtitle="We are a here to help." />
         </div>
