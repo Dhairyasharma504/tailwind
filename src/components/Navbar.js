@@ -38,7 +38,7 @@ const Navbar = () => {
           {navItems.map((item) => {
             if (item.image) {
               return (
-                <div key={item.label} className="px-2">
+                <div key={item.label} className="px-3">
                   <img src={item.image} alt={item.label}></img>
                 </div>
               );
