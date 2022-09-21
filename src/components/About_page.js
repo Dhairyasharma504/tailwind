@@ -1,22 +1,13 @@
 import React from 'react';
+import Image from './elements/Image';
 
 const About_page = () => {
   return (
     <div class=" flex justify-center mt-5 ">
-      <div class="grid grid-cols-1 gap-16 lg:grid-cols-3 sm:grid-cols-2 ">
-        <img
-          class=" object-cover w-full dark:bg-gray-500 aspect-square h-88 w-64 rounded-lg"
-          src="./images/aboutProfile1.webp"
-        />
-
-        <img
-          class="object-cover w-full dark:bg-gray-500 aspect-square h-88 w-64 rounded-lg "
-          src="./images/aboutProfile2.webp"
-        />
-        <img
-          class="object-cover w-full dark:bg-gray-500 aspect-square h-88 w-64 rounded-lg"
-          src="./images/aboutProfile3.webp"
-        />
+      <div class="grid grid-cols-1 gap-14 lg:grid-cols-3 sm:grid-cols-2 ">
+        <Image image="./images/aboutProfile1.webp" />
+        <Image image="./images/aboutProfile2.webp" />
+        <Image image="./images/aboutProfile3.webp" />
       </div>
     </div>
   );

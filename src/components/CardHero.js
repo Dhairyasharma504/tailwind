@@ -18,7 +18,7 @@ const CardHero = ({ item }) => {
         {item.text}
       </h2>
       <div className="flex items-center mt-3 space-x-3 text-gray-500 ">
-        <div class="flex items-center gap-3">
+        <div class="flex items-center gap-5">
           <img
             alt=""
             src={item.dp_image}
