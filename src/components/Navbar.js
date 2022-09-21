@@ -33,8 +33,8 @@ const navItems = [
 const Navbar = () => {
   return (
     <div>
-      <header className="p-4 dark:bg-gray-800 dark:text-gray-100">
-        <div className="container flex justify-between h-16 mx-auto md:justify-center items-center md:space-x-8">
+      <header className=" dark:bg-gray-800 dark:text-gray-100">
+        <div className=" flex justify-between h-16 mx-auto md:justify-center items-center md:space-x-8 my-2">
           {navItems.map((item) => {
             if (item.image) {
               return (
@@ -45,7 +45,7 @@ const Navbar = () => {
             } else {
               return (
                 <Link href={item.link || '/'} key={item.label}>
-                  <a className="px-2 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-blue-500">
+                  <a className=" text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-blue-500">
                     {item.label}
                   </a>
                 </Link>
