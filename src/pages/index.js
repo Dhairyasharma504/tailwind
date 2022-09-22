@@ -9,6 +9,7 @@ const data = [
     button: 'TECHNOLOGY',
     dp_name: 'Mario Sanchez',
     date: 'May 20, 2022',
+    dp_image: '/images/dp1.webp',
   },
   {
     text: '5 Effective Brain Recharging Activities No One is Talking About',
@@ -17,6 +18,7 @@ const data = [
     button: 'LIFESTYLE',
     dp_name: 'Joshua Wood',
     date: 'june 30, 2022',
+    dp_image: '/images/dp2.webp',
   },
   {
     text: '10 Simple Practices That Will Help You Get 1% Better Every Day',
@@ -25,6 +27,7 @@ const data = [
     button: 'PERSONAL GROWTH',
     dp_name: 'Erika Oliver',
     date: 'july 20, 2022',
+    dp_image: '/images/dp3.webp',
   },
   {
     text: 'Every Artist has to see the Amazing Pictures on the Internet',
@@ -33,6 +36,7 @@ const data = [
     button: 'DESIGN',
     dp_name: 'Mario Sanchez',
     date: 'August 20, 2022',
+    dp_image: '/images/dp2.webp',
   },
   {
     text: 'How Technology Evolved Under the Bright Sun of Universe',
@@ -41,6 +45,7 @@ const data = [
     button: 'TECHNOLOGY',
     dp_name: 'Mario Sanchez',
     date: 'september 20, 2022',
+    dp_image: '/images/dp1.webp',
   },
   {
     text: 'Lessons Of Happiness I learned from a Mountain Village',
@@ -49,6 +54,7 @@ const data = [
     button: 'TRAVEL',
     dp_name: 'Joshua Wood',
     date: 'May 20, 2022',
+    dp_image: '/images/dp3.webp',
   },
   {
     text: 'There’s Nothing New About Undermining Women’s Autonomy',
@@ -57,6 +63,7 @@ const data = [
     button: 'LIFESTYLE',
     dp_name: 'Erika Oliver',
     date: 'May 20, 2022',
+    dp_image: '/images/dp1.webp',
   },
   {
     text: 'Escape Fantasies of the Tech Billionaires',
@@ -65,13 +72,16 @@ const data = [
     button: 'technology',
     dp_name: 'Erika Oliver',
     date: 'May 20, 2022',
+    dp_image: '/images/dp2.webp',
   },
 ];
 
 const Index = () => {
   return (
     <Layout>
-      <Card data={data} />
+      <div className="container px-8 py-5 lg:py-8 mx-auto xl:px-5 max-w-screen-lg">
+        <Card data={data} />
+      </div>
     </Layout>
   );
 };
