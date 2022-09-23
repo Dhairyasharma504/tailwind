@@ -10,21 +10,21 @@ const about = () => {
     <Layout>
       <Content title="About" subtitle="We are a small passionate team." />
       <About_page />
-      <div className="text container px-8 py-5 lg:py-8 mx-auto xl:px-5 max-w-screen-lg ">
-        <h3 className="text-center py-4 text-base leading-loose ">
+      <div class="text-center space-y-4   mt-14 ">
+        <h3 className="text-center text-base leading-loose ">
           We provide real-time connectivity to enable software providers and
           financial institutions to build integrated products for their small
           business customers.
         </h3>
-        <h3 className="text-center py-1 text-base leading-loose">
+        <h3 className="text-center  text-base leading-loose">
           Our API infrastructure is leveraged by clients ranging from lenders to
           corporate card providers and business forecasting tools, with use
           cases including automatic reconciliation, business dashboarding, and
           loan decisioning.
         </h3>
-        <div className="text-center p-2  font-semibold">
-          <Link href="/">
-            <a className="">Get in touch</a>
+        <div className="text-center   font-semibold">
+          <Link href="/contact">
+            <a className="underline underline-offset-2">Get in touch</a>
           </Link>
         </div>
       </div>

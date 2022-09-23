@@ -2,10 +2,11 @@ import React from 'react';
 import Image from 'next/image';
 const Footer = () => {
   return (
-    <div>
+    <div className="mb-7">
       <hr className="w-1/2 border-1 mx-auto" />
-      <div class="flex items-center justify-center mt-10 mb-10 ">
+      <div class=" text-center my-6 ">
         <p class="font-medium">© Copyright 1986. All Rights Reserved.</p>
+        <p className="">Made by Web3Templates</p>
       </div>
       <Image
         width={150}
