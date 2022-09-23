@@ -5,7 +5,7 @@ const data = [
   {
     text: 'Architectural Engineering Wonders of the modern era for your Inspiration',
     image: '/images/building.webp',
-    link: '/',
+    link: '/technology',
     button: 'TECHNOLOGY',
     dp_name: 'Mario Sanchez',
     date: 'May 20, 2022',
@@ -68,7 +68,7 @@ const data = [
   {
     text: 'Escape Fantasies of the Tech Billionaires',
     image: '/images/technology1.webp',
-    link: '/',
+    link: '/technology',
     button: 'technology',
     dp_name: 'Erika Oliver',
     date: 'May 20, 2022',
