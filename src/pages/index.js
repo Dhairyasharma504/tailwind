@@ -41,7 +41,7 @@ const data = [
   {
     text: 'How Technology Evolved Under the Bright Sun of Universe',
     image: '/images/technology.webp',
-    link: '/',
+    link: '/technology',
     button: 'TECHNOLOGY',
     dp_name: 'Mario Sanchez',
     date: 'september 20, 2022',

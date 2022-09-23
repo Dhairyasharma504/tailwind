@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const CardHero = ({ item }) => {
@@ -9,10 +10,11 @@ const CardHero = ({ item }) => {
         alt={item.title}
         className="object-cover object-center w-full rounded h-72 dark:bg-gray-500 hover:scale-105 transition-all duration-500 cursor-pointer"
       />
-
-      <p className="inline-block mt-5 text-xs font-medium text-blue-600 uppercase  items-left justify-left">
-        {item.button}
-      </p>
+      <Link href={item.link}>
+        <a className="inline-block mt-5 text-xs font-medium text-blue-600 uppercase  items-left justify-left">
+          {item.button}
+        </a>
+      </Link>
 
       <h2 className="text-lg font-semibold flex items-left justify-left mt-1">
         {item.text}
