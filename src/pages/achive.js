@@ -70,7 +70,7 @@ const data = [
   {
     text: 'Escape Fantasies of the Tech Billionaires',
     image: '/images/technology1.webp',
-    link: '/',
+    link: '/technology',
     button: 'technology',
     dp_name: 'Erika Oliver',
     date: 'May 20, 2022',
