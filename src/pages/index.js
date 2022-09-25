@@ -71,7 +71,7 @@ const data = [
     link: '/technology',
     button: 'technology',
     dp_name: 'Erika Oliver',
-    date: 'May 20, 2022',
+    date: 'May 22, 2022',
     dp_image: '/images/dp2.webp',
   },
 ];
