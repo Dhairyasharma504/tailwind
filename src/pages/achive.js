@@ -7,7 +7,7 @@ const data = [
   {
     text: 'Architectural Engineering Wonders of the modern era for your Inspiration',
     image: '/images/building.webp',
-    link: '/',
+    link: '/technology',
     button: 'TECHNOLOGY',
     dp_name: 'Mario Sanchez',
     date: 'May 20, 2022',
@@ -43,7 +43,7 @@ const data = [
   {
     text: 'How Technology Evolved Under the Bright Sun of Universe',
     image: '/images/technology.webp',
-    link: '/',
+    link: '/technology',
     button: 'TECHNOLOGY',
     dp_name: 'Mario Sanchez',
     date: 'september 20, 2022',
