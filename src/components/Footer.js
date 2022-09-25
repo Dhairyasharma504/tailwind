@@ -6,7 +6,7 @@ const Footer = () => {
       <hr className="w-1/2 border-1 mx-auto" />
       <div class=" text-center my-6 ">
         <p class="font-medium">© Copyright 1986. All Rights Reserved.</p>
-        <p className="text-inherit">Made by Web3Templates</p>
+        <p className="">Made by Web3Templates</p>
       </div>
       <Image
         width={150}
