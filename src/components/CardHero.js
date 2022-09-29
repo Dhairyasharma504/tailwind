@@ -10,7 +10,7 @@ const CardHero = ({ item }) => {
         alt={item.title}
         className="object-cover object-center w-full rounded h-72 dark:bg-gray-500 hover:scale-105 transition-all duration-500 cursor-pointer"
       />
-      <Link href={item.link}>
+      <Link href={item.link || '/'}>
         <a className="inline-block mt-5 text-xs font-medium text-blue-600 uppercase  items-left justify-left">
           {item.button}
         </a>
@@ -20,7 +20,7 @@ const CardHero = ({ item }) => {
         {item.text}
       </h2>
       <div className="flex items-center mt-3 space-x-3 text-gray-500 ">
-        <div class="flex items-center">
+        <div className="flex items-center">
           <img
             alt=""
             src={item.dp_image}
@@ -29,7 +29,7 @@ const CardHero = ({ item }) => {
         </div>
 
         <p className=" text-sm font-medium ">{item.dp_name}</p>
-        <span class="text-xs text-gray-300 dark:text-gray-600">•</span>
+        <span className="text-xs text-gray-300 dark:text-gray-600">•</span>
         <p className="text-sm font-medium ">{item.date}</p>
       </div>
     </div>
