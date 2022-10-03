@@ -21,13 +21,13 @@ export function getStaticProps() {
   const posts = postFilePaths.map((filePath) => {
     const source = fs.readFileSync(path.join(POSTS_PATH, filePath));
     const { content, data } = matter(source);
-
     return {
       content,
       data,
       filePath,
     };
   });
+
   return { props: { posts } };
 }
 export default Index;
